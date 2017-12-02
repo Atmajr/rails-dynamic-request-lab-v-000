@@ -4,4 +4,8 @@ class StudentsController < ApplicationController
   end
 
   get 'students/:id', to: 'students#show'
+
+  def show
+  end
+  
 end
